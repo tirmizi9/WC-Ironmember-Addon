@@ -1,0 +1,54 @@
+.wc-ironembers-tabs-container {
+
+  .woocommerce-Tabs-panel {
+    color: #fff !important;
+    p {
+      color: #fff !important;
+    }
+  }
+}
+
+.woocommerce-page {
+  &.single-product {
+    #content {
+      div.product {
+        .wc-ironembers-tabs-container {
+          background: #454848;
+          margin-bottom: 69px;
+          ul.wc-ironembers-tabs {
+            text-align: left;
+            border-top: none;
+            li {
+              text-transform: none;
+              padding: 6px 36px;
+              a {
+                color: #3E3E3E;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 39px;
+              }
+              &.active {
+                background: #454848;
+                margin: 0 20px;
+
+                -webkit-border-radius: 9px 9px 0 0;
+                -moz-border-radius: 9px 9px 0 0;
+                border-radius: 9px 9px 0 0;
+                &:before {
+                  content: none;
+                }
+                a {
+                  color: #fff;
+                }
+              }
+            }
+          }
+
+          .woocommerce-Tabs-panel {
+            padding: 3em 36px;
+          }
+        }
+      }
+    }
+  }
+}

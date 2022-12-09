@@ -1,0 +1,80 @@
+#fire-pit-accessories {
+  margin-bottom: 120px;
+
+  h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #C40909;
+  }
+  .fire-pit-accessories-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    margin-left: -11px;
+    margin-right: -11px;
+    .fire-pit-accessory-list-item {
+      width: 100%;
+      @media (min-width: 768px) {
+        width: 50%;
+      }
+      @media (min-width: 992px) {
+        width: 25%;
+      }
+      padding-left: 11px;
+      padding-right: 11px;
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: flex-start;
+      margin-bottom: 4rem;
+
+      .accessory-image {
+        img {
+          width: 100%;
+          height: auto;
+        }
+        margin-bottom: 20px;
+      }
+
+      .accessory-title {
+        a {
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 22px;
+        }
+        margin-bottom: 10px;
+      }
+
+      .accessory-price {
+        .woocommerce-Price-amount {
+          font-size: 20px;
+          line-height: 35px;
+          font-weight: 600;
+        }
+        margin-bottom: 20px;
+      }
+
+      .accessory-cart {
+        margin-top: auto;
+        button {
+          background-color: #414141;
+          color: #fff;
+          font-weight: 800;
+          font-size: 14px;
+          line-height: 18px;
+          text-align: center;
+          width: 100%;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 10px;
+          border: 1px solid #414141;
+          -webkit-border-radius: 4px;
+          -moz-border-radius: 4px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}

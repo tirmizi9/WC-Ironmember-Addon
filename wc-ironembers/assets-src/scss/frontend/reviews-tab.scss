@@ -1,0 +1,31 @@
+.reviews-tab-container {
+
+  .review-container {
+    margin-bottom: 60px;
+    background: #FAFAFA;
+    border: 1px solid #979797;
+    box-shadow: 0 2px 15px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 22px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .review-content {
+      color: #020202;
+      margin-bottom: 16px;
+    }
+    .review-submitter {
+      font-size: 1.3em;
+      font-weight: bold;
+      color: #020202;
+
+      &:before {
+        content: "\2014";
+        font-size: 1.3em;
+        font-weight: bold;
+        margin-right: 1rem;
+        color: #020202;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.pit-addon-heading {
+  color: #C40909;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+.pit-addon-options {
+  color: #818385;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  span {
+    font-weight: 600;
+    color: #4C4C4C;
+  }
+
+  input {
+    margin-right: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.fire-pit-custom-panel-text {
+  margin-bottom: 2rem;
+
+  h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 12px;
+
+    & ~ .title-price-addon {
+      margin-top: -12px;
+      margin-bottom: 12px;
+    }
+  }
+  .product_meta_form_group {
+    margin-bottom: 1rem;
+    .product_meta_label {
+      display: block;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 16px;
+    }
+    .product_meta_control {
+      width: 100%;
+    }
+  }
+}
